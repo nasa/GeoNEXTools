@@ -103,6 +103,8 @@ head(sites)
 #> 6       Chubut Argentina
 ```
 
+Alternatively, we also have [a site list](data/site_list.csv) in CSV file format for ease of use.
+
 #### Find site names in a specified bounding box.
 
 The number of sites is more than 1000. The sites can be filtered by
