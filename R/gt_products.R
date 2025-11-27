@@ -20,7 +20,7 @@
 gt_products <- memoise::memoise(function(){
 
   # define url
-  url <- paste(nex_server(), "JSON", "products", sep = "/")
+  url <- paste(nex_server(), "anc", "products", sep = "/")
 
   # try to download the data
   products <- try(jsonlite::fromJSON(url))

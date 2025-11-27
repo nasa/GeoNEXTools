@@ -30,7 +30,7 @@ gt_bands <- memoise::memoise(function(product){
   }
 
   # define url
-  url <- paste(nex_server(), "JSON", product, "bands", sep = "/")
+  url <- paste(nex_server(), "anc", product, "bands", sep = "/")
 
   # try to download the data
   bands <- try(jsonlite::fromJSON(url))

@@ -24,9 +24,9 @@ gt_sites <- memoise::memoise(function(
 
   # define server settings
   if(missing(network)){
-   url <- paste(nex_server(), "JSON", "sites", sep = "/")
+   url <- paste(nex_server(), "anc", "sites", sep = "/")
   } else{
-    url <- paste(nex_server(), "JSON", network ,"sites", sep = "/")
+    url <- paste(nex_server(), "anc", network ,"sites", sep = "/")
   }
 
   # try to download the data
